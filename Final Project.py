@@ -5,6 +5,7 @@ import tweepy
 import json
 import sqlite3
 
+CACHE_FNAME = "Spotify_Cache.json"
 
 try:
     cache_file = open(CACHE_FNAME,'r')
